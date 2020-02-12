@@ -1,0 +1,432 @@
+Feb. 11, 2020 2:48:53 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM120220
+Capacity:12
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM200220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLE110220
+Capacity:40
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLA140220
+Capacity:5
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLM170220
+Capacity:9
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLM110220
+Capacity:100
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLE150220
+Capacity:14
+event added succesfully
+Feb. 11, 2020 2:50:32 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLA200220
+Capacity:18
+event added succesfully
+Feb. 11, 2020 2:51:18 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLM110220
+removed successfully
+Feb. 11, 2020 2:51:32 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+list of events available displayed
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM200220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLE110220
+Capacity:40
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLA140220
+Capacity:5
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLM170220
+Capacity:9
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLM110220
+Capacity:100
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLE150220
+Capacity:14
+event added succesfully
+Feb. 11, 2020 2:56:56 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLA200220
+Capacity:18
+event added succesfully
+Feb. 11, 2020 2:57:08 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+list of events available displayed
+Feb. 11, 2020 2:57:21 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+removed successfully
+Feb. 11, 2020 2:58:27 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:MTLC1234
+Event Type:SEMINARS
+Event ID:MTLA110220
+event is not available
+Feb. 11, 2020 2:58:27 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 3:00:14 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 3:00:14 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 3:00:14 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 3:00:14 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM200220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 3:00:33 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+list of events available displayed
+Feb. 11, 2020 3:00:56 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:MTLC1234
+Event Type:SEMINARS
+Event ID:MTLA110220
+event booked succesfully
+Feb. 11, 2020 3:00:56 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 3:01:17 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 3:02:02 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 3:02:02 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 3:02:02 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 3:02:02 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM200220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 3:02:50 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+removed successfully
+Feb. 11, 2020 3:03:13 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:MTLC1234
+Event Type:SEMINARS
+Event ID:MTLA110220
+event booked succesfully
+Feb. 11, 2020 3:03:13 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 3:03:24 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 3:10:30 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 3:10:30 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 3:10:30 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 3:10:30 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM200220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 3:12:43 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:MTLC1234
+schedule displayed
+Feb. 11, 2020 3:12:43 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 3:12:52 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 3:15:42 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 3:15:42 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 3:15:42 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 3:15:42 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM200220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 3:16:01 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:MTLC1234
+Event Type:SEMINARS
+Event ID:MTLA110220
+event booked succesfully
+Feb. 11, 2020 3:16:06 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 3:24:15 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 3:24:15 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 3:24:15 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 3:24:15 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM200220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 3:24:32 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:MTLC1234
+Event Type:SEMINARS
+Event ID:MTLA110220
+event booked succesfully
+Feb. 11, 2020 3:24:36 P.M. DEMSClient main
+INFO: 
+Customer ID:MTLC1234
+Services performed
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM200220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLM110220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLE110220
+Capacity:40
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLA140220
+Capacity:5
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:MTLM170220
+Capacity:9
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLM110220
+Capacity:100
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLE150220
+Capacity:14
+event added succesfully
+Feb. 11, 2020 4:50:00 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:MTLA200220
+Capacity:18
+event added succesfully
+Feb. 11, 2020 5:14:19 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM110220
+removed successfully
+Feb. 11, 2020 5:24:25 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLM120220
+Capacity:12
+event added succesfully

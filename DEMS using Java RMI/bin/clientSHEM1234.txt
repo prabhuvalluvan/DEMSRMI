@@ -1,0 +1,71 @@
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:SHEM170220
+Capacity:16
+event added succesfully
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:SHEA210220
+Capacity:15
+event added succesfully
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:SHEE210320
+Capacity:14
+event added succesfully
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:SHEA170220
+Capacity:13
+event added succesfully
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:SHEE211020
+Capacity:4
+event added succesfully
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:SHEA120220
+Capacity:3
+event added succesfully
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:SHEE180220
+Capacity:2
+event added succesfully
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:SHEE210320
+Capacity:110
+event added succesfully
+Feb. 11, 2020 4:50:34 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:SHEM110220
+Capacity:50
+event added succesfully
+Feb. 11, 2020 4:50:43 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+list of events available displayed
+Feb. 11, 2020 4:51:22 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+list of events available displayed
+Feb. 11, 2020 4:51:34 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+list of events available displayed
+Feb. 11, 2020 5:15:37 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:SHEE180220
+removed successfully

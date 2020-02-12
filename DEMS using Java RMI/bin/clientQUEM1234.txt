@@ -1,0 +1,65 @@
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:QUEM120220
+Capacity:20
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:QUEM170220
+Capacity:40
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:QUEA210220
+Capacity:6
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:QUEM110220
+Capacity:7
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:QUEA120220
+Capacity:9
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:QUEM170220
+Capacity:10
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:QUEE220220
+Capacity:21
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:QUEE120220
+Capacity:19
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:QUEM170220
+Capacity:18
+event added succesfully
+Feb. 11, 2020 4:50:17 P.M. DEMSClient main
+INFO: 
+Event Type:TRADESHOWS
+Event ID:QUEA210220
+Capacity:17
+event added succesfully
+Feb. 11, 2020 5:15:12 P.M. DEMSClient main
+INFO: 
+Event Type:CONFERENCES
+Event ID:QUEA120220
+removed successfully

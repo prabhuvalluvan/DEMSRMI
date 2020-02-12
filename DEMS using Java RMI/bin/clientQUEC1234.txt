@@ -1,0 +1,62 @@
+Feb. 11, 2020 5:00:48 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:SEMINARS
+Event ID:MTLM110220
+event booked succesfully
+Feb. 11, 2020 5:01:04 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:CONFERENCES
+Event ID:QUEA120220
+event booked succesfully
+Feb. 11, 2020 5:02:06 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:TRADESHOWS
+Event ID:SHEE180220
+event booked succesfully
+Feb. 11, 2020 5:03:27 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:SEMINARS
+Event ID:QUEM120220
+event booked succesfully
+Feb. 11, 2020 5:03:37 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:CONFERENCES
+Event ID:QUEM170220
+event booked succesfully
+Feb. 11, 2020 5:03:47 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:TRADESHOWS
+Event ID:QUEE120220
+event booked succesfully
+Feb. 11, 2020 5:05:29 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:TRADESHOWS
+Event ID:MTLE150220
+event booked succesfully
+Feb. 11, 2020 5:05:47 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:CONFERENCES
+Event ID:MTLE110220
+event booked succesfully
+Feb. 11, 2020 5:05:57 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+Event Type:SEMINARS
+Event ID:MTLA110220
+you cant book more than 3 events in a week from other cities
+Feb. 11, 2020 5:06:37 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+schedule displayed
+Feb. 11, 2020 5:16:45 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:QUEC1234
+schedule displayed

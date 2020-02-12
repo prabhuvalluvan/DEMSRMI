@@ -1,0 +1,11 @@
+Feb. 11, 2020 3:03:47 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLA110220
+Capacity:30
+capcity updated
+Feb. 11, 2020 3:04:03 P.M. DEMSClient main
+INFO: 
+Event Type:SEMINARS
+Event ID:MTLE130220
+removed successfully

@@ -1,0 +1,120 @@
+Feb. 11, 2020 5:07:16 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:SEMINARS
+Event ID:MTLM110220
+event booked succesfully
+Feb. 11, 2020 5:08:16 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:CONFERENCES
+Event ID:QUEA120220
+event booked succesfully
+Feb. 11, 2020 5:08:28 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:TRADESHOWS
+Event ID:SHEE180220
+event is not available
+Feb. 11, 2020 5:09:25 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:TRADESHOWS
+Event ID:SHEE210320
+event booked succesfully
+Feb. 11, 2020 5:09:27 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
+Feb. 11, 2020 5:11:09 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:SEMINARS
+Event ID:QUEM120220
+event booked succesfully
+Feb. 11, 2020 5:11:22 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:CONFERENCES
+Event ID:SHEE211021
+event is not available
+Feb. 11, 2020 5:12:04 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:CONFERENCES
+Event ID:SHEE211020
+event booked succesfully
+Feb. 11, 2020 5:12:10 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
+Feb. 11, 2020 5:12:28 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:TRADESHOWS
+Event ID:SHEM110220
+you have booked another event in the same slot
+Feb. 11, 2020 5:12:42 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:TRADESHOWS
+Event ID:MTLE150220
+you cant book more than 3 events in a week from other cities
+Feb. 11, 2020 5:16:09 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
+Feb. 11, 2020 5:59:32 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:SEMINARS
+Event ID:QUEM270220
+event booked succesfully
+Feb. 11, 2020 6:00:22 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
+Feb. 11, 2020 6:25:46 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:SEMINARS
+Event ID:QUEM270220
+event booked succesfully
+Feb. 11, 2020 6:26:27 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
+Feb. 11, 2020 6:33:43 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:SEMINARS
+Event ID:QUEM270220
+event booked succesfully
+Feb. 11, 2020 6:34:15 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
+Feb. 11, 2020 6:34:44 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
+Feb. 11, 2020 6:36:05 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:SEMINARS
+Event ID:QUEM270220
+event booked succesfully
+Feb. 11, 2020 6:36:14 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+Event Type:SEMINARS
+Event ID:QUEE270220
+event booked succesfully
+Feb. 11, 2020 6:36:29 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
+Feb. 11, 2020 6:37:44 P.M. DEMSClient customerfun
+INFO: 
+Customer ID:SHEC1234
+schedule displayed
