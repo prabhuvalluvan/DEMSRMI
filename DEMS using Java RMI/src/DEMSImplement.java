@@ -1,6 +1,7 @@
 import java.io.IOException;
 import java.net.*;
 import java.rmi.RemoteException;
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -67,12 +68,12 @@ public class DEMSImplement extends UnicastRemoteObject implements DEMSInterface
 					if(map1.get(eventtype).containsKey(eventID))
 					{
 						ArrayList<String> bookedcustomers=new ArrayList<String>();
-						TreeSet<String> nextevents=new TreeSet<String>();
+						TreeSet<Date> nexteventsdates=new TreeSet<Date>();
 						String neweventID = null;
 						String nexteventID=null;
 						System.out.println("original eventid: "+eventID);
 						//booked customers from first own server
-						if(!bookedcustomers.isEmpty())
+						if(!custdetails1.isEmpty())
 						{
 							for(String keyi:custdetails1.keySet())
 							{
@@ -86,50 +87,64 @@ public class DEMSImplement extends UnicastRemoteObject implements DEMSInterface
 							}
 						}
 						System.out.println("booked customers of that event: "+bookedcustomers.toString());
+						
 						//changing the eventid for comparing during next event finding
-						if(eventID.charAt(3)=='M') { neweventID=eventID.substring(0,3)+eventID.substring(4)+"1";}
-						if(eventID.charAt(3)=='A') { neweventID=eventID.substring(0,3)+eventID.substring(4)+"2";}
-						if(eventID.charAt(3)=='E') { neweventID=eventID.substring(0,3)+eventID.substring(4)+"3";}
+						if(eventID.charAt(3)=='M') { neweventID=eventID.substring(4)+"09";}
+						if(eventID.charAt(3)=='A') { neweventID=eventID.substring(4)+"13";}
+						if(eventID.charAt(3)=='E') { neweventID=eventID.substring(4)+"17";}
 						System.out.println("changed eventid: "+neweventID);
+						Date newdate=new SimpleDateFormat("ddMMyyhh").parse(neweventID); 
 						
 						//event ids of the given eventtype
 						for(String keyi:map1.get(eventtype).keySet())
 						{
 							String newvalue = null;
-							if(keyi.charAt(3)=='M') {newvalue=keyi.substring(0,3)+keyi.substring(4)+"1";}
-							if(keyi.charAt(3)=='A') {newvalue=keyi.substring(0,3)+keyi.substring(4)+"2";}
-							if(keyi.charAt(3)=='E') {newvalue=keyi.substring(0,3)+keyi.substring(4)+"3";}
-							nextevents.add(newvalue);
+							if(keyi.charAt(3)=='M') {newvalue=keyi.substring(4)+"09";}
+							if(keyi.charAt(3)=='A') {newvalue=keyi.substring(4)+"13";}
+							if(keyi.charAt(3)=='E') {newvalue=keyi.substring(4)+"17";}
+							Date nextdate=new SimpleDateFormat("ddMMyyhh").parse(newvalue);
+							nexteventsdates.add(nextdate);
 						}
-						System.out.println("available events of that eventtype: "+nextevents.toString());
+						System.out.println("available events of that eventtype: "+nexteventsdates);
 						//selecting next available eventid for all booked customers
 						if(!bookedcustomers.isEmpty())
 						{
 							for(String bookedcust:bookedcustomers)
 							{
 								//nexteventid=null;
-								for(String nextevent:nextevents)
+								if(!nexteventsdates.isEmpty())
 								{
-									if(nextevent.compareTo(neweventID)<0)
+								for(Date nexteventdate:nexteventsdates)
+								{
+									if(nexteventdate.compareTo(newdate)<0)
 									{
 										continue;
 									}
-									if(nextevent.equals(neweventID))
+									if(nexteventdate.equals(newdate))
 									{
 										continue;
 									}
-									if(nextevent.compareTo(neweventID)>0)
+									if(nexteventdate.compareTo(newdate)>0)
 									{
-										if(nextevent.endsWith("1")) {nextevent=nextevent.substring(0,3)+"M"+nextevent.substring(3,nextevent.length()-1);}
-										if(nextevent.endsWith("2")) {nextevent=nextevent.substring(0,3)+"A"+nextevent.substring(3,nextevent.length()-1);}
-										if(nextevent.endsWith("3")) {nextevent=nextevent.substring(0,3)+"E"+nextevent.substring(3,nextevent.length()-1);}
-										String result=bookEvent(bookedcust,nextevent,eventtype);
+										
+										Date nedate=nexteventdate;
+										DateFormat dateFormat = new SimpleDateFormat("ddMMyyhh");  
+										String nextevent = dateFormat.format(nedate);  
+										
+										String nextevent1 = null;
+										
+										if(nextevent.endsWith("09")) {nextevent1=this.servername.substring(0,3)+"M"+nextevent.substring(0,nextevent.length()-2);}
+										if(nextevent.endsWith("01")) {nextevent1=this.servername.substring(0,3)+"A"+nextevent.substring(0,nextevent.length()-2);}
+										if(nextevent.endsWith("05")) {nextevent1=this.servername.substring(0,3)+"E"+nextevent.substring(0,nextevent.length()-2);}
+										System.out.println("next eventid: "+nextevent1);
+										String result=bookEvent(bookedcust,nextevent1,eventtype);
 										//nexteventID=nextevent;
 										if(result.equals("event booked succesfully"))
 										{
 											break;
 										}
 									}
+								}
 								}
 								
 							}
@@ -139,28 +154,36 @@ public class DEMSImplement extends UnicastRemoteObject implements DEMSInterface
 						
 						
 						nexteventID="dummy";
-						if(!nextevents.isEmpty())
+						if(!nexteventsdates.isEmpty())
 						{
-							for(String nextevent:nextevents)
+							for(Date nexteventdate:nexteventsdates)
 							{
-								if(nextevent.compareTo(neweventID)<0)
+								if(nexteventdate.compareTo(newdate)<0)
 								{
 									continue;
 								}
-								if(nextevent.equals(neweventID))
+								if(nexteventdate.equals(newdate))
 								{
 									continue;
 								}
-								if(nextevent.compareTo(neweventID)>0)
+								if(nexteventdate.compareTo(newdate)>0)
 								{
-									if(nextevent.endsWith("1")) {nextevent=nextevent.substring(0,3)+"M"+nextevent.substring(3,nextevent.length()-1);}
-									if(nextevent.endsWith("2")) {nextevent=nextevent.substring(0,3)+"A"+nextevent.substring(3,nextevent.length()-1);}
-									if(nextevent.endsWith("3")) {nextevent=nextevent.substring(0,3)+"E"+nextevent.substring(3,nextevent.length()-1);}
+									Date nedate=nexteventdate;
+									DateFormat dateFormat = new SimpleDateFormat("ddMMyyhh");  
+									String nextevent = dateFormat.format(nedate);  
+									
+									String nextevent1 = null;
+									
+									if(nextevent.endsWith("09")) {nextevent1=this.servername.substring(0,3)+"M"+nextevent.substring(0,nextevent.length()-2);}
+									if(nextevent.endsWith("01")) {nextevent1=this.servername.substring(0,3)+"A"+nextevent.substring(0,nextevent.length()-2);}
+									if(nextevent.endsWith("05")) {nextevent1=this.servername.substring(0,3)+"E"+nextevent.substring(0,nextevent.length()-2);}
 									//String result=bookEvent(bookedcust,nextevent,eventtype);
-									nexteventID=nextevent;
+									nexteventID=nextevent1;
+									System.out.println("next event id for others:"+nexteventID);
+									
 									//if(result.equals("event booked succesfully"))
 									//{
-										//break;
+										break;
 									//}
 									//booked customers from other server
 								}
